@@ -1,0 +1,2 @@
+# Infinite Redirect Loop in Next.js
+This repository demonstrates a common error in Next.js applications: an infinite redirect loop caused by unintentionally pushing the current route using `router.push(router.asPath)`. The `bug.js` file contains the erroneous code, which results in continuous redirects, leading to a frozen or unresponsive application. The solution is presented in `bugSolution.js` to avoid pushing the current path and thereby fix the infinite redirect loop.
